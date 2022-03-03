@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Sign Up For Business</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+  	<!--   CSS  -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="css/css2.css">
+
+	
+  	<!--   JS   -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="data.js"></script>
+</head>
+
+
+<body>
+
+
+     <!--------------  header  ------------- -->
+      <div class="container">
+          <header id="masthead">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">    
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#"> <img src="images/SS logos-03.jpg" id="logo" alt="Loading..." class="logo"> </a><br/>
+                    
+                    <div class="prog-bar">
+                        <div class="col-sm-3 msg">Complete your profile</div>
+                        <div class="col-sm-8">         
+                            <div class="progress progress-100">
+                                <div class="progress-bar progress-bar-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" >100% </div>
+                            </div>
+                        </div> 
+                        <div class="col-sm-1 msg2"> 100% </div>
+                    </div>
+                </div>    
+                
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="login-and-signup.html"><button type="button" class="btn btn-default btn-arrow-right"> Trainer  Login and Password </button></a></li>
+                      <li><a href="account-info.html"><button type="button" class="btn btn-default btn-arrow-right"> Trainer  Account Info</button></a></li>
+                      <li><a href="logo-and-gallary.html"><button type="button" class="btn btn-default btn-arrow-right"> Trainer  Details Info </button></a></li>
+                      <li><a href="features.html"><button type="button" class="btn btn-default btn-arrow-right"> Trainer  Features </button></a></li>
+                      <li><a href="coach-classes-info.html"><button type="button" class="btn btn-default btn-arrow-right active"> Trainer  Classes/ Lessons </button></a></li>
+                    </ul>
+                  </div>    
+                  <br/>
+            </div>
+        </header>
+    </div>
+
+<!-----------------  end of header  ---------------->
+
+
+
+  <div class="padding-sm"></div>
+  <div class="padding-sm"></div>
+  <div class="padding-sm"></div>
+  <div class="padding-sm"></div>
+  
+  
+    <div class="container container-b container-dark">
+       <div class="padding-sn"></div>
+	   <h4><strong> Company Service Information </strong> </h4>
+       <p> For Paid please list this sports facilities, coaching training, class or excursion availability hours </p>
+    </div>
+	
+  
+   <div class="container">
+    <div class="padding-sn"></div>
+    <form class="form-horizontal">
+         
+		  <div class="form-group">
+              <label class="control-label col-sm-4" for=""> Sport &nbsp; &nbsp;
+			  
+			  <select name="Country" class="custom-input" id="sportsDropDown">
+				  <option value="" selected disabled>Select specific sport</option>
+        </select>
+			  
+			  </label>
+              <div class="col-sm-6"> 
+                Description
+                <textarea type="text" class="form-control" id="" placeholder="Write a brief description of the Sport/Facilities/Equipment or coaching etc" rows="6"></textarea>
+              </div>
+         </div>
+		 
+		    <div class="form-group">
+              <label class="control-label col-sm-4" for=""> Instructor Experience Level</label>
+              <div class="col-sm-6"> 
+                <select
+									name=""
+									id="instructorExperienceDropDown"
+									class="form-control"
+								>
+									<option value="">Select One</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Instructor Skill Level</label>
+              <div class="col-sm-6"> 
+                <select
+									name=""
+									id="instructorSkillDropDown"
+									class="form-control"
+								>
+									<option value="">Select One</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Prefer students with below experience</label>
+              <div class="col-sm-6"> 
+                <select name="" id="studentSkillDropDown" class="form-control">
+									<option value="">Select One</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Do you charge by the hour or by the lesson ?</label>
+              <div class="col-sm-6"> 
+                <select name="" id="" class="form-control">
+									<option value="">Select One</option>
+									<option value="">By the Lesson</option>
+									<option value="">By the Hour</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">How much do you charge ?</label>
+              <div class="col-sm-6"> 
+                <input name="" id="" class="form-control" type="number" />
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">How much cancellation notice do you require ?</label>
+              <div class="col-sm-6"> 
+                <select name="" id="cancellationDropDown" class="form-control">
+									<option value="">Select One</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Cancellation Fee</label>
+              <div class="col-sm-6"> 
+                <input name="" id="" class="form-control" type="number" />
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Do you have equipment customers can use?</label>
+              <div class="col-sm-6"> 
+                <select name="" id="" class="form-control">
+									<option value="">Select One</option>
+									<option value="">Yes</option>
+									<option value="">No</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Do you have a Specific gym or place?</label>
+              <div class="col-sm-6"> 
+                <select name="" id="" class="form-control">
+									<option value="">Select One</option>
+									<option value="">Yes</option>
+									<option value="">No</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">Can you meet at other locations?</label>
+              <div class="col-sm-6"> 
+                <select name="" id="" class="form-control">
+									<option value="">Select One</option>
+									<option value="">Yes</option>
+									<option value="">No</option>
+								</select>
+              </div>
+         </div>
+
+         <div class="form-group">
+              <label class="control-label col-sm-4" for="">If Yes, what radius distance from your location can you
+									travel to ?</label>
+              <div class="col-sm-6"> 
+                <select
+									name=""
+									id="distanceRadiusDropDown"
+									class="form-control"
+								>
+									<option value="">Select One</option>
+								</select>
+              </div>
+         </div>
+		 
+</div>
+
+		 <div class="container container-dark">
+		  <div class="padding-sn"></div>
+	      <div class="col-sm-12 text-center">
+          <button class="btn btn-danger">SAVE</button>
+          <a href="http://sportsocial.webfactional.com/ss-app/v2/sport-instructor-profile.html" class="btn btn-primary">VIEW MY SPORTSOCIAL PAGE</a>
+          <a href="http://sportsocial.webfactional.com/sportsocial-business/dashboard.html" class="btn btn-info">VIEW MY BIZ ACCOUNT PAGE</a>
+          <button class="btn btn-success">CREATE NEXT FREE ONLINE  BOOKING FOR YOUR SPORT LESSONS/CLASSES</button>
+        </div>
+      </div>
+		 
+    </form>
+
+<div class="padding-sn"></div>
+<div class="padding-sm"></div>
+
+ <script>
+			function populateSports() {
+				var optionsVal = document.getElementById("sportsDropDown");
+				var sportList = getSportsList();
+				for (let i = 0; i < sportsList.length; i++) {
+					var createOptions = document.createElement("option");
+					optionsVal.appendChild(createOptions);
+					createOptions.text = sportsList[i];
+				}
+			}
+			populateSports();
+
+			function populateInstructorExperience() {
+				var optionsVal = document.getElementById(
+					"instructorExperienceDropDown"
+				);
+				for (let i = 0; i <= 30; i++) {
+					var createOptions = document.createElement("option");
+					optionsVal.appendChild(createOptions);
+					createOptions.text = i + " years";
+				}
+			}
+			populateInstructorExperience();
+
+			function populateInstructorSkill() {
+				var optionsVal = document.getElementById("instructorSkillDropDown");
+				var skillList = getSkillList();
+				for (let i = 0; i < skillList.length; i++) {
+					var createOptions = document.createElement("option");
+					optionsVal.appendChild(createOptions);
+					createOptions.text = skillList[i];
+				}
+			}
+			populateInstructorSkill();
+
+			function populateStudentSkill() {
+				var optionsVal = document.getElementById("studentSkillDropDown");
+				var skillList = getStudentExperienceList();
+				for (let i = 0; i < skillList.length; i++) {
+					var createOptions = document.createElement("option");
+					optionsVal.appendChild(createOptions);
+					createOptions.text = skillList[i] + " only";
+				}
+			}
+			populateStudentSkill();
+
+			function populateCancellation() {
+				var optionsVal = document.getElementById("cancellationDropDown");
+				for (let i = 0; i <= 48; i++) {
+					var createOptions = document.createElement("option");
+					optionsVal.appendChild(createOptions);
+					createOptions.text = i + " hours";
+				}
+			}
+			populateCancellation();
+
+			function populateDistanceRadius() {
+				var optionsVal = document.getElementById("distanceRadiusDropDown");
+				for (let i = 0; i <= 50; i++) {
+					var createOptions = document.createElement("option");
+					optionsVal.appendChild(createOptions);
+					createOptions.text = i + " miles";
+				}
+			}
+			populateDistanceRadius();
+		</script>
+  
+</body>
+</html>
